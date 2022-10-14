@@ -4,6 +4,11 @@ from models.base_model import BaseModel
 
 
 class City(BaseModel):
-    """ The city class, contains state ID and name """
+    """ Class definition for a city.
+
+    Attributes:
+        name (str): name of the city.
+        state_id (str): unique id of the state.
+    """
     state_id = ""
     name = ""
