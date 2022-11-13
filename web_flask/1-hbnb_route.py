@@ -17,6 +17,7 @@ def hello():
     """Home page of the web application."""
     return "Hello HBNB!"
 
+
 @app.route('/hbnb', strict_slashes=False)
 def hbnb():
     """Display the HBNB page."""
